@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y software-properties-common \
     && add-apt-repository -y ppa:team-xbmc/ppa \
 	&& apt-get update \
 	&& apt-cache policy kodi \
-	&& apt-get install -y kodi=2:18.8+git20200728.1313-final-0focal \
+	&& apt-get install -y kodi=2:18.8+git20200728.1313-final-0bionic \
 		vdpau-va-driver \
 	&& apt-get -y --purge autoremove \
 	&& apt-get clean \
