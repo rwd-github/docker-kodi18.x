@@ -1,5 +1,7 @@
 # kodi18.x
 
+do not run anymore
+
 ```
 xhost +local:docker; docker run -it --env="DISPLAY" \
 	--volume="/home/$USER/home4kodi:/root"          \
