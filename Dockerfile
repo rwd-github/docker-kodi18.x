@@ -12,7 +12,7 @@ RUN apt-get update && apt-get install -y software-properties-common \
 	&& apt-get update \
 	&& apt-cache policy kodi \
 	&& apt-get install -y \
-		kodi=2:18.8+*
+		kodi=2:18.9+*
 #		kodi=2:18.8+git20200728.1313-final-0focal
 
 RUN apt-get install -y \
