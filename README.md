@@ -1,3 +1,5 @@
+DEPRECATED moved to: https://gitlab.com/ytdocker/collection
+
 # kodi18.x
 
 do not run anymore
